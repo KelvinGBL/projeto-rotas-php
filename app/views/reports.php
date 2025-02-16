@@ -18,7 +18,7 @@
 
             <div class="app-main">
               <div class="main-header-line">
-                <h1>Users</h1>
+                <h1>Reports</h1>
                 <div class="action-buttons">
                     
                   <button class="open-right-area" style="display: none;">
@@ -76,7 +76,7 @@
         </script>
 
         <script>
-            document.getElementById("nav-link-users").classList.add("active");
+            document.getElementById("nav-link-reports").classList.add("active");
         </script>
     </body>
 </html>
