@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -27,7 +29,7 @@
 
 body {
   height: 100vh;
-  width: 99.5%;
+  width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -108,6 +110,7 @@ body {
   margin-right: 16px;
   padding: 0 24px;
   color: var(--app-logo);
+  font-weight: 600;
 }
 .app-logo span {
   display: inline-block;
@@ -152,7 +155,7 @@ button {
 }
 
 .nav-list-link {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   padding: 8px 24px;
