@@ -33,5 +33,17 @@ $router = [
         "app/dashboard" => function () {
             load("DashboardController", "index");
         },
+        "app/jobs" => function () {
+            load("JobsController", "index");
+        },
+        "app/applications" => function () {
+            load("ApplicationsController", "index");
+        },
+        "app/users" => function () {
+            load("UsersController", "index");
+        },
+        "app/reports" => function () {
+            load("ReportsController", "index");
+        },
     ],
 ];
