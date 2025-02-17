@@ -25,28 +25,28 @@
         </a>
     </li>
 
-    <li class="nav-list-item">
+    <li id="nav-link-jobs" class="nav-list-item">
         <a class="nav-list-link" href="jobs">
             <?php require __DIR__ . "../../icons/jobs.svg"; ?>
             Jobs
         </a>
     </li>
     
-    <li class="nav-list-item">
+    <li id="nav-link-applications" class="nav-list-item">
         <a class="nav-list-link" href="applications">
             <?php require __DIR__ . "../../icons/applications.svg"; ?>
             Applications
         </a>
     </li>
 
-    <li class="nav-list-item">
+    <li id="nav-link-users" class="nav-list-item">
         <a class="nav-list-link" href="users">
             <?php require __DIR__ . "../../icons/users.svg"; ?>
             Users
         </a>
     </li>
 
-    <li class="nav-list-item">
+    <li id="nav-link-reports" class="nav-list-item">
         <a class="nav-list-link" href="reports">
             <?php require __DIR__ . "../../icons/reports.svg"; ?>
             Reports
